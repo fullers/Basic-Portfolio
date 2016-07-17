@@ -22,9 +22,11 @@ hr {
 	background: #dddddd;
 }
 nav {
-
-	float: right;
+    font-size: 16px;
 	color: #777777;
+	position: fixed;
+	top: 25px;
+	right: 340px;
 
 }
 
@@ -33,42 +35,91 @@ p {
 }
 
 footer {
+	text-align: center;
+	font-weight: bold;
 	background: #666666;
+	margin-top: 0px;
+	padding: 20px;
+	color: #cccccc;
 }
 
 .content-area {
 	
     border: 2px solid #cccccc;
     background-image: url("../images/concrete_seamless.png");
-    margin-top: 50px;
+    
 }
 
 .name {
-    
+    text-align: center;
 	background: #4aaaa5;
 	color: #ffffff;
-	width: 15%;
+	width: 20%;
 	height: 30%;
-	margin-top: 100px;
-	margin-left: 50px;
-	font-size: 24px;
+	padding: 20px;
+	font-size: 36px;
+	margin-left: 104px;
 
 }
 
-
+.img-size {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+}
 
 #main-content { 
 	background: #ffffff ;
 	width: 650px;
 	border: 1px solid #dddddd;
+	margin-top: 20px;
+	margin-left: 150px;
+	margin-bottom: 50px;
+	
+}
+
+.content-title {
+	margin: 20px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#img-profile {
+
+	float: left;
+	padding: 20px;
 }
 
 #sidebar {
 	background: #ffffff;
 	width: 270px;
 	border: 1px solid #dddddd;
+	position: fixed;
+	top: 100px;
+	right: 300px;
+	padding: 20px;
 
 }
+
+#connect {
+	font-size: 24px;
+	text-align: center;
+	padding: 10px;
+}
+
+#img-stackoverflow {
+
+	width: 75px;
+	height: 70px;
+	margin: 4px;
+}
+
+#teal-bar {
+	background: #4aaaa5;
+	height: 10px;
+	margin-bottom: 0px;
+}
+
 
 /* End of CSS */
 
