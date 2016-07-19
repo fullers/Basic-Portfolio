@@ -24,7 +24,7 @@ hr {
 nav {
     font-size: 16px;
 	color: #777777;
-	position: fixed;
+	position: absolute;
 	top: 25px;
 	right: 340px;
 
@@ -43,11 +43,17 @@ footer {
 	color: #cccccc;
 }
 
+form {
+	display: block;
+	margin: 20px;
+}
+
 .content-area {
-	
-    border: 2px solid #cccccc;
+	border: 2px solid #cccccc;
     background-image: url("../images/concrete_seamless.png");
-    
+    /*position: absolute;
+    right: 300px;
+    width: 960px;*/
 }
 
 .name {
@@ -59,7 +65,6 @@ footer {
 	padding: 20px;
 	font-size: 36px;
 	margin-left: 104px;
-
 }
 
 .img-size {
@@ -70,12 +75,15 @@ footer {
 
 #main-content { 
 	background: #ffffff ;
-	width: 650px;
 	border: 1px solid #dddddd;
-	margin-top: 20px;
-	margin-left: 150px;
-	margin-bottom: 50px;
-	
+	width: 650px;
+	margin: 40px 0px 40px 150px;
+}
+
+#mc-text {
+	color: #777777;
+	text-align: justify;
+	margin: 20px;
 }
 
 .content-title {
@@ -94,10 +102,11 @@ footer {
 	background: #ffffff;
 	width: 270px;
 	border: 1px solid #dddddd;
-	position: fixed;
+	position: absolute;
 	top: 100px;
-	right: 300px;
+	right: 250px;
 	padding: 20px;
+	margin: 20px;
 
 }
 
@@ -120,6 +129,136 @@ footer {
 	margin-bottom: 0px;
 }
 
+#hr-maincontent {
+	width: 610px;
+}
 
+/* End of CSS for index*/
+
+/* Begin CSS for Portfolio 
+   Creating the figures for main content (Hangman, RPG Game, Triva Game, Widget, and RPS*/
+
+.img-hangman {
+	background-image: url("http://lorempixel.com/output/technics-q-c-210-204-1.jpg");
+    width: 210px;
+    height: 204px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+
+}
+
+#fig-hangman {
+	background: #4aaaa5;
+	text-align: center;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 20px;
+	position: relative;
+	top: 140px;
+}
+
+.img-rpggame {
+	background-image: url("http://lorempixel.com/output/technics-q-c-210-204-2.jpg");
+    width: 210px;
+    height: 204px;
+    margin-left: 20px;
+    position: relative;
+    top: -204px;
+    right: -250px;
+}
+
+#fig-rpggame {
+	background: #4aaaa5;
+	text-align: center;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 20px;
+	position: relative;
+	top: 140px;
+}
+
+.img-triviagame {
+	background-image: url("http://lorempixel.com/output/technics-q-c-210-204-5.jpg");
+    width: 210px;
+    height: 204px;
+    margin-left: 20px;
+    position: relative;
+    top: -160px;
+}
+
+#fig-triviagame {
+	background: #4aaaa5;
+	text-align: center;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 20px;
+	position: relative;
+	top: 140px;
+}
+
+.img-widget {
+	background-image: url("http://lorempixel.com/output/technics-q-c-210-204-7.jpg");
+    width: 210px;
+    height: 204px;
+    margin-left: 20px;
+    position: relative;
+    top: -364px;
+    right: -250px;
+}
+
+#fig-widget {
+	background: #4aaaa5;
+	text-align: center;
+	color: #ffffff;
+	font-size: 18px;
+	padding: 20px;
+	position: relative;
+	top: 140px;
+}
+
+.img-rps {
+	background-image: url("http://lorempixel.com/output/technics-q-c-210-204-9.jpg");
+    width: 210px;
+    height: 204px;
+    margin-left: 20px;
+    position: relative;
+    top: -300px;
+}
+
+#fig-rps {
+	background: #4aaaa5;
+	text-align: center;
+	color: #ffffff;
+	font-size: 18px;
+	padding: 20px;
+	position: relative;
+	top: 140px;
+}
+
+#fullname {
+	width: 100%;
+	height: 20px;
+	
+}
+
+#email {
+	width: 100%;
+	height: 20px;
+}
+
+#message {
+	width: 100%;
+	height: 200px;
+}
+
+#submit {
+	background: #4aaaa5;
+	border-style: none;
+	color: #ffffff;
+	font-size: 20px;
+	width: 150px;
+	height: 50px;
+	margin: 10px;
+}
 /* End of CSS */
-
