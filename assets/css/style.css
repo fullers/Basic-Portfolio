@@ -48,6 +48,15 @@ form {
 	margin: 20px;
 }
 
+a {
+	color: #cccccc;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #4aaaa5;
+}
+
 .content-area {
 	border: 2px solid #cccccc;
     background-image: url("../images/concrete_seamless.png");
