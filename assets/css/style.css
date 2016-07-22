@@ -5,13 +5,14 @@ body {
   	
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: #333333;
-  margin: 0 auto;
+  
 }
 
 header {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	background: #ffffff;
-    margin: 0px 50px;
+    overflow: auto;
+   margin: 0 auto;
 }
 
 h2 {
@@ -25,15 +26,19 @@ hr {
 nav {
     font-size: 20px;
 	color: #777777;
-	position: absolute;
-	top: 5px;
-	right: 300px;
+	margin: 0px auto;
 	padding: 20px;
 	opacity: 0.6;
+	float: right;
 }
 
 .pike {
 	opacity: 0.1;
+}
+
+aside {
+	text-align: center;
+	margin: 10px auto;
 }
 
 p { 
@@ -62,7 +67,7 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
+a:active {
 	background-color: #4aaaa5;
 }
 
@@ -94,18 +99,21 @@ http://ryanfait.com/
 .content-area {
 	border: 2px solid #cccccc;
     background-image: url("../images/concrete_seamless.png");
-    
+    overflow: auto;
+}
+.container {
+	width: 960px;
+	margin: 0px auto;
+	overflow: auto;
 }
 
 .name {
+	font-size: 36px;
     text-align: center;
 	background: #4aaaa5;
 	color: #ffffff;
-	width: 20%;
-	height: 30%;
 	padding: 20px;
-	font-size: 36px;
-	margin-left: 104px;
+	float: left;
 }
 
 .img-size {
@@ -115,15 +123,14 @@ http://ryanfait.com/
 	margin-top: 20px;
 }
 
-.container {
-	width: 960px;
-}
+
 
 #main-content { 
 	background: #ffffff ;
 	border: 1px solid #dddddd;
 	width: 650px;
-	margin: 40px 0px 40px 150px;
+	margin: 50px auto;
+	float: left;
 }
 
 #mc-text {
@@ -133,9 +140,9 @@ http://ryanfait.com/
 }
 
 .content-title {
-	margin: 20px;
+	margin: 20px 20px;
 	font-size: 30px;
-	font-weight: bold;
+	text-align: left;
 }
 
 #img-profile {
@@ -148,20 +155,17 @@ http://ryanfait.com/
 	background: #ffffff;
 	width: 270px;
 	border: 1px solid #dddddd;
-	position: absolute;
-	top: 100px;
-	right: 250px;
-	padding: 20px;
-	margin: 20px;
+	margin: 50 auto;
+	float: right;
 
 }
 
 #connect {
-	font-size: 25px;
-	padding: 5px;
+	font-size: 20px;
 	font-weight: bold;
-	position: relative;
-	right: -16px;
+	margin: 20px auto;
+	text-align: center;
+	
 }
 
 #img-stackoverflow {
@@ -180,15 +184,15 @@ http://ryanfait.com/
 #hr-maincontent {
 	background-color: #cccccc;
 	width: 610px;
-	height: 4px;
-	margin: 20px 0px 0px 20px;
+	height: 2px;
+	margin: 0 auto;
     opacity: 0.4;
 }
 #hr-connect {
 	background-color: #cccccc;
 	width: 240px;
 	height: 1px;
-	margin: 10px 10px 0px 5px;
+	margin: auto;
     opacity: 0.1;
 }
 /* End of CSS for Global */
